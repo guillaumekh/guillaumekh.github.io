@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.player {
+  position: static;
+  display: block;
+  width: 600px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #e9e9e9;
+}
+
+.cover {
+  height: 100%;
+}
+
+.background {
+  overflow: hidden;
+  background-image: url('../images/beige_paper.png');
+  background-repeat: repeat;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  margin: 180px auto auto;
+  clear: both;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px -4px #000;
+}
+
+.portrait {
+  display: block;
+  margin: 20px auto;
+  padding-top: 30px;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 40px;
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+.txt {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px 40px;
+  font-family: Lato, sans-serif;
+}
+
+.contact_icons {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.socialicon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+@media (max-width: 479px) {
+  .container {
+    width: 95%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+  .portrait {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .heading {
+    padding: 5px 20px;
+    font-size: 32px;
+  }
+  .txt {
+    padding: 5px 20px;
+  }
+  .contact_icons {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
